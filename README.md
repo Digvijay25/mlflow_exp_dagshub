@@ -19,7 +19,7 @@ The dataset used for this project can be found in my dataset repository. It incl
 ## Experiments
 
 You can view the experiments and their results on DagsHub:
-[View Experiments on DagsHub](https://github.com/Digvijay25/mlflow_exp_dagshub.git)
+[View Experiments on DagsHub](https://dagshub.com/Digvijay25/mlflow_exp_dagshub.mlflow)
 
 ## Getting Started
 
