@@ -9,8 +9,12 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import mlflow.sklearn
 
+
+import dagshub
+dagshub.init(repo_owner='Digvijay25', repo_name='mlflow_exp_dagshub', mlflow=True)
+
 mlflow.set_experiment('water_potability_prediction_gbt')
-mlflow.set_tracking_uri('http://localhost:5000')
+mlflow.set_tracking_uri('https://dagshub.com/Digvijay25/mlflow_exp_dagshub.mlflow')
 
 # Load the dataset
 df = pd.read_csv('https://raw.githubusercontent.com/Digvijay25/Datasets/refs/heads/main/water_potability.csv')
